@@ -1,0 +1,1 @@
+export const DashWeather = React.lazy(() => import(/* webpackChunkName: "DashWeather" */ './fragments/DashWeather.react'));

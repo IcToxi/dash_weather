@@ -1,0 +1,111 @@
+{
+  "src/lib/components/DashWeather.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "DashWeather",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "city": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "----.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "api_key": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "----.",
+        "defaultValue": {
+          "value": "'YOUR-API-KEY'",
+          "computed": false
+        }
+      },
+      "lat": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "----.",
+        "defaultValue": {
+          "value": "48.137154",
+          "computed": false
+        }
+      },
+      "lon": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "----.",
+        "defaultValue": {
+          "value": "11.576124",
+          "computed": false
+        }
+      },
+      "lang": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "----.",
+        "defaultValue": {
+          "value": "'en'",
+          "computed": false
+        }
+      },
+      "unit": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "----.",
+        "defaultValue": {
+          "value": "'metric'",
+          "computed": false
+        }
+      },
+      "service": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "----.",
+        "defaultValue": {
+          "value": "'OpenWeather'",
+          "computed": false
+        }
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "----.",
+        "defaultValue": {
+          "value": "{\n    fontFamily: 'Helvetica, sans-serif',\n    gradientStart: '#0181C2',\n    gradientMid: '#04A7F9',\n    gradientEnd: '#4BC4F7',\n    locationFontColor: '#FFF',\n    todayTempFontColor: '#FFF',\n    todayDateFontColor: '#B5DEF4',\n    todayRangeFontColor: '#B5DEF4',\n    todayDescFontColor: '#B5DEF4',\n    todayInfoFontColor: '#B5DEF4',\n    todayIconColor: '#FFF',\n    forecastBackgroundColor: '#FFF',\n    forecastSeparatorColor: '#DDD',\n    forecastDateColor: '#777',\n    forecastDescColor: '#777',\n    forecastRangeColor: '#777',\n    forecastIconColor: '#4BC4F7',\n}",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}

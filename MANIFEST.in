@@ -1,0 +1,11 @@
+include dash_weather/dash_weather.min.js
+include dash_weather/dash_weather.min.js.map
+include dash_weather/async-*.js
+include dash_weather/async-*.js.map
+include dash_weather/*-shared.js
+include dash_weather/*-shared.js.map
+include dash_weather/metadata.json
+include dash_weather/package-info.json
+include README.md
+include LICENSE
+include package.json
