@@ -1,6 +1,6 @@
 # Dash Weather
 
-Dash Weather is a Dash component library.
+Dash Weather is a Dash component library. The outcome is shown in this [Gif](dw.gif).
 
 Get started with:
 1. Install Dash and its dependencies: https://dash.plotly.com/installation
