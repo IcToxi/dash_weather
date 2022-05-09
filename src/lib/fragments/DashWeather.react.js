@@ -24,6 +24,7 @@ const DashWeather = (props) => {
 
     return (
         <ReactWeather
+            id={id}
             isLoading={isLoading}
             errorMessage={errorMessage}
             data={data}
